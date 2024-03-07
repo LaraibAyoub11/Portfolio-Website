@@ -1,0 +1,374 @@
+@media screen and (min-width : 1200px) and (max-width : 1400px) {
+    header {
+        margin: 3em 0 0 4em;
+    }
+    
+    /* h3#intro {
+        margin: 0em 0 -1em;
+    } */
+    
+    h1#head {
+        font-size: 4.6em;
+    }
+    
+    .first {
+        margin: 8em 0 0 -2em;
+    }
+
+    div#aboutMeFirst, div#thoughtsFirst, div#experiencesFirst, div#insightsFirst {
+        margin-top: 5em;
+    }
+
+    .second h1 {
+        font-size: 2.5em;
+    }
+
+    div#aboutMe, div#thoughts, div#experiences, div#insights {
+        height: 100vh;
+        padding: 21vh 0 0 0;
+    }
+
+    header {
+        margin: 3em 0 0 -8.5em;
+    }
+
+    div#contact {
+        padding: 3em 7em;
+    }
+
+    #grid input {
+        width: 26.5em;
+    }
+
+    button {
+        margin: 3em 24em 0;
+    }
+}
+
+@media screen and (min-width : 1114px) and (max-width : 1199px) {
+    h1#head {
+        font-size: 3.88em;
+    }
+
+    .second h1 {
+        font-size: 2em;
+    }
+
+    div#aboutMeFirst, div#thoughtsFirst, div#experiencesFirst, div#insightsFirst {
+        margin-top: 8em;
+    }
+
+    div#experiencesSecond {
+        width: 36vw;
+    }
+
+    div#aboutMe, div#thoughts, div#experiences, div#insights {
+        padding-top: 15vh;
+    }
+
+    #experiences .second h1 {
+        font-size: 1.7em;
+    }
+
+    .first p {
+        height: 35vh;
+    }
+
+    .first p img {
+        height: 38vh;
+        top: -2em;
+    }
+
+    div#insights {
+        padding-bottom: 8em;
+    }
+
+    div#contact {
+        padding: 3em 3em;
+        top: -4em;
+    }
+}
+
+@media screen and (min-width : 884px) and (max-width : 1113px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    h1#head , h3#intro{
+        font-size: 3.4em;
+        line-height: 2em;
+    }
+
+    div#aboutMe, div#thoughts, div#experiences, div#insights {
+        display: block;
+        height: 60vh;
+    }
+
+    .first p {
+        height: 15vh;
+        width: 25vw;
+        position: relative;
+        left: 18em;
+    }
+
+    .first p img {
+        width: 26vw;
+        height: 18vh;
+        top: -3em;
+        left: 1.5em;
+    }
+
+    .second h1 {
+        font-size: 2.6em;
+        letter-spacing: 0.4em;
+    }
+
+    div.second {
+        margin: 0em;
+    }
+
+    div#thoughtsFirst, div#thoughtsSecond, div#insightsSecond, div#insightsFirst {
+        margin: 0 0.2em 0 0em;
+    }
+
+    div#experiencesSecond {
+        width: 70vw;
+    }
+
+    div#aboutMe, div#thoughts, div#experiences, div#insights {
+        padding: 9.5vh 0;
+    }
+
+    header {
+        font-size: 0.8em;
+        margin-left: -12em;
+        padding-right: 2em;
+    }
+
+    div#contact {
+        padding: 3em 3em;
+    }
+
+    #grid input {
+        width: 17.5em;
+    }
+
+    button {
+        margin: 3em 15em 0;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 883px) {
+    body {
+        overflow-x: hidden;
+        padding: 0 5em;
+    }
+
+    h1#head {
+        font-size: 3.2em;
+    }
+
+    h3#intro {
+        margin: 0em 0 -0.5em;
+    }
+
+    div#heading {
+        padding: 36vh 0;
+    }
+
+    header span {
+        font-size: 1.1em;
+        margin: 0 1em;
+    }
+
+    div#aboutMe, div#thoughts, div#experiences, div#insights {
+        display: block;
+    }
+
+    div#aboutMeFirst, div#thoughtsFirst, div#experiencesFirst, div#insightsFirst {
+        padding-top: 0em;
+    }
+
+    div#thoughts {
+        margin-top: 10em;
+    }
+
+    div#thoughtsFirst, div#thoughtsSecond, div#insightsSecond, div#insightsFirst {
+        margin: 0 ;
+    }
+
+    .first p {
+        height: 20vh;
+        width: 30vw;
+    }
+
+    .first p img {
+        width: 30vw;
+        height: 23vh;
+    }
+
+    .second h1 {
+        font-size: 2.4em;
+        text-align: right;
+        margin-right: -0.9em;
+    }
+
+    .second p {
+        font-size: 1.6em;
+        line-height: 1.6em;
+        text-align: right;
+    }
+
+    div.second{
+        margin: 0;
+    }
+
+    div#experiencesSecond {
+        width: auto ;
+    }
+
+    div#experiences {
+        margin-bottom: 8em;
+    }
+
+    div#insights {
+        margin: 20em 0;
+    }
+
+    div#thoughtsFirst {
+        margin-top: 4em;
+    }
+
+    div#insightsFirst {
+        margin-top: 4.5em;
+    }
+
+    div#contact {
+        padding: 3em 3em;
+    }
+
+    #grid input {
+        width: 17em;
+    }
+
+    button {
+        margin: 3em 14em 0;
+    }
+
+    header {
+        margin: 3em 0 0 -6em;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width : 360px) and (max-width : 428px){
+    body{
+        overflow-x: hidden;
+        margin: 0 -30vw;
+    }
+    
+    div#smallerScreens {
+        display: block;
+    }
+
+    header{
+        display: none;
+    }
+
+    h3#intro {
+        font-size: 2em;
+        margin-bottom: -1.5em;
+    }
+
+    h1#head {
+        font-size: 1.6em;
+        letter-spacing: 1em;
+        margin-top: 2em;
+    }
+
+    div#heading {
+        padding: 10vh 7vw;
+    }
+
+    div#aboutMe, div#thoughts, div#experiences, div#insights {
+        /* margin-top: 19em; */
+        display: block;
+        /* height: 80vh; */
+        /* padding-top: 20vh; */
+    }
+
+    div#aboutMeFirst, div#experiencesFirst, div#insightsFirst {
+        margin-top: -5em;
+        /* width: 44vw; */
+    }
+
+    .first p {
+        height: 20vh;
+        width: 30vw;
+    }
+
+    .first p img {
+        width: 40vw;
+        height: 23vh;
+        top: 1em;
+        left: -3em;
+    }
+
+    .second h1 {
+        font-size: 1.5em;
+    }
+
+    #experiences .second h1 {
+        font-size: 1.2em;
+    }
+
+    div.second {
+        margin: 4em 1em 0 1em;
+    }
+
+    div#thoughtsFirst, div#thoughtsSecond, div#insightsSecond, div#insightsFirst {
+        margin: 10em 1em 0;
+    }
+
+    div#thoughtsFirst {
+        margin-top: 0em;
+        /* width: 44vw; */
+    }
+
+    div#experiencesFirst {
+        margin-top: 30em;
+    }
+
+    div#experiencesSecond {
+        width: auto;
+    }
+
+    div#insights {
+        margin: 40em 0 ;
+    }
+
+    div#insightsSecond {
+        margin-top: 20em;
+    }
+
+    div#insightsFirst {
+        margin-top: 0em;
+    }
+
+    div#contact{
+        display: block;
+        padding: 3em 1em;
+    }
+
+    #grid input {
+        width: 11.3em;
+    }
+
+    button {
+        margin: 3em 8em 0;
+    }
+
+    #contactHeading{
+        display: block;
+    }
+}

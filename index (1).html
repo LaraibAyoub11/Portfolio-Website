@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+
+    <!-- First page -->
+    <header id="header">
+        <span><a href="#heading" onclick="hideContact()">Home</a></span>
+        <span><a href="#aboutMe" onclick="hideContact()">About Me</a></span>
+        <span><a href="#thoughts" onclick="hideContact()">Thoughts</a></span>
+        <span><a href="#experiences" onclick="hideContact()">Experiences</a></span>
+        <span><a href="#insights" onclick="hideContact()">Insights</a></span>
+        <span><a href="#contact" onclick="contactPage()">Contact Us</a></span>
+
+    </header>
+
+    <div id="heading">
+        <h3 id="intro">I'm a</h3>
+        <h1 id="head">Software<br>Developer</h1>
+    </div>
+
+    <!-- Second page -->
+    <div id="aboutMe">
+        <div class="first" id="aboutMeFirst">
+            <p>
+                <img src="https://i.pinimg.com/236x/45/02/3b/45023ba1cdea239a53c0007ac025ae2c.jpg" alt="">
+            </p>
+        </div>
+        <div class="second">
+            <h1>About Me</h1>
+            <p>Welcome to my corner of the web! I'm Husnain Khan , a passionate individual navigating the 
+                digital realm with a keen interest in sharing stories, insights, and experiences. As a 
+                Software Developer, I find joy in unraveling the threads of life and weaving them into 
+                compelling narratives. Join me on this journey where I explore the intersection of 
+                Building Webs and share snippets of my adventures, musings, and discoveries. Here, you'll 
+                find a blend of my professional insights, personal reflections, and the little joys that 
+                color my life. Cheers to new beginnings!
+            </p>
+        </div>
+    </div>
+
+    <!-- third page -->
+    <div id="thoughts">
+        <div class="second" id="thoughtsSecond">
+            <h1>Thoughts</h1>
+            <p>Greetings! I'm LARAIB AYOUB , a dedicated software developer with a passion for creating innovative solutions. 
+               I bring a versatile skill set developed through diverse projects, I am committed to delivering high-quality
+              code and staying current with the latest technologies. eyond coding, I find inspiration in badminton,
+              adding a unique perspective to my development approach. Let's connect and explore the exciting possibilities
+              of software together!
+            </p>
+        </div>
+        <div class="first" id="thoughtsFirst">
+            <p>
+                <img src="https://i.pinimg.com/564x/68/68/78/686878988ce3843dc8df1ced56136e06.jpg" alt="">
+            </p>
+        </div>
+    </div>
+
+    <!-- fourth page -->
+    <div id="experiences">
+        <div class="first" id="experiencesFirst">
+            <p>
+                <img src="https://i.pinimg.com/236x/90/ae/60/90ae607e235ada005e6131c48e5c0010.jpg" alt="">
+            </p>
+        </div>
+        <div class="second" id="experiencesSecond">
+            <h1>Experiences</h1>
+            <p>My experience in software development has been a dynamic journey in crafting visually 
+              appealing and interactive user interfaces for websites and applications. I have cultivated a deep understanding of programming
+              and a proven track record of delivering successful solutions.I thrive in collaborative environments, adapting quickly to evolving 
+              project requirements. My commitment to producing efficient, maintainable code has been a consistent hallmark of my career. 
+              I look forward to leveraging my skills and experience to contribute meaningfully to future projects.
+            </p>
+        </div>
+    </div>
+
+    <!-- Fifth page -->
+    <div id="insights">
+        <div class="second" id="insightsSecond">
+            <h1>Insights</h1>
+            <p>In my professional journey, I've gained valuable insights into the dynamic landscape of software development.
+               Through hands-on experience and continuous learning,ealizing its transformative potential. These insights have 
+               not only enhanced my problem-solving skills but also fueled my commitment to staying at the forefront of industry
+               trends. I believe that fostering a culture of curiosity and adaptability is key to navigating the ever-evolving 
+               tech landscape, and I'm eager to apply these insights to drive innovation in future projects. 
+            </p>
+        </div>
+        <div class="first" id="insightsFirst">
+            <p>
+                <img src="https://i.pinimg.com/236x/08/3c/1b/083c1b5be05db7864ed939f32a848113.jpg" alt="">
+            </p>
+        </div>
+
+    </div>
+
+    <!-- contact page -->
+    <div id="contact">
+        <h1 id="contactHeading">Contact Us</h1>
+        <div id="grid">
+            <input class="fields" type="text" placeholder="Full Name">
+            <input class="fields" type="text" placeholder="Email Address">
+            <input class="fields" type="number" placeholder="Mobile Number">
+            <input class="fields" type="text" placeholder="Email Subject">
+        </div>
+        <textarea class="fields" name="text" placeholder="Your Message" cols="30" rows="10"></textarea>
+        <button onclick="emptyFields()">Send Message</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html> 
